@@ -3,6 +3,8 @@
     <div class="container">
       <h1>Todo List Manager</h1>
       <h6>Power by Vue 3 | rails 6 ...</h6>
+      <AddTodo />
+      <FilterTodos />
       <Todos />
     </div>
   </div>
@@ -10,11 +12,15 @@
 
 <script>
   import Todos from "@/components/Todos.vue";
+  import AddTodo from "@/components/AddTodo.vue";
+  import FilterTodos from "@/components/FilterTodos.vue";
 
 export default {
   name: "App",
   components: {
     Todos,
+    AddTodo,
+    FilterTodos
   },
 };
 </script>

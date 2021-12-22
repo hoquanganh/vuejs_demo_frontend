@@ -95,10 +95,13 @@
     height: 10px;
     background: #41b882;
   }
+  .is-complete {
+    background: #35495e;
+    color: #fff;
+  }
   @media (max-width: 500px){
     .todos{
       grid-template-columns: 1fr;
-
     }
   }
 </style>
